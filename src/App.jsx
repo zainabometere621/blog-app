@@ -8,7 +8,7 @@ export default function App() {
   return (
     <Routes>
       <Route element={<Layout />}>
-      <Route path="/Auth" element={<AuthPage />} />
+      <Route path="/auth" element={<AuthPage />} />
       <Route path="/" element={<AllBlogpage />} />
       <Route path="/post" element={<SingleBlogPage />} />
       </Route>
