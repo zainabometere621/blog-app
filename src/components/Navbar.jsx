@@ -22,7 +22,7 @@ export default function Navbar() {
       </nav>
      
     </div>
-     <hr className="border-[#6B2816]"/>
+     <hr className="border-[#EADCC9]"/>
     </section>
   );
 }

@@ -25,14 +25,14 @@ export default function WriteBlog() {
           className="w-full mt-10 bg-transparent outline-none text-lg placeholder-gray-600"
         />
         <div className="space-y-10">
-          <hr className="border-[#6B2816]" />
+          <hr className="border-[#EADCC9]" />
           <div className="flex gap-6">
             <div className="flex-1">
               <label className="text-base text-gray-600">Author Name</label>
               <input
                 type="text"
                 placeholder="Your name"
-                className="text-sm w-full px-4 py-3 border rounded-md bg-transparent focus:outline-none border-[#6B2816]"
+                className="text-sm w-full px-4 py-3 border rounded-md bg-transparent focus:outline-none border-[#EADCC9]"
               />
             </div>
             <div className="flex-1">
@@ -40,7 +40,7 @@ export default function WriteBlog() {
               <input
                 type="date"
                 placeholder="dd/mm/yy"
-                className="text-sm w-full px-4 py-3 border rounded-md bg-transparent  focus:outline-none border-[#6B2816]"
+                className="text-sm w-full px-4 py-3 border rounded-md bg-transparent  focus:outline-none border-[#EADCC9]"
               />
             </div>
             <div className="flex-1">
@@ -48,11 +48,11 @@ export default function WriteBlog() {
               <input
                 type="text"
                 placeholder="2 min read"
-                className="text-sm w-full px-4 py-3 border rounded-md bg-transparent focus:outline-none border-[#6B2816]"
+                className="text-sm w-full px-4 py-3 border rounded-md bg-transparent focus:outline-none border-[#EADCC9]"
               />
             </div>
           </div>
-          <hr className="border-[#6B2816]"/>
+          <hr className="border-[#EADCC9]"/>
         </div>
         <textarea
           placeholder="Tell your story..."
