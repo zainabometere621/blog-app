@@ -32,10 +32,13 @@ export default function AuthPage() {
           />
         </div>
         <div className="space-y-6">
-          <button className="bg-[#6B2816] hover:bg-[#8B3B29] text-white flex space-x-2 items-center justify-center rounded-md w-full py-3">
-            <NavLink to = "/write-blog" className="font-semibold">Sign In</NavLink>
+          <NavLink
+            to="/write-blog"
+            className="bg-[#6B2816] hover:bg-[#8B3B29] text-white flex space-x-2 items-center justify-center rounded-md w-full py-3"
+          >
+            <p className="font-semibold">Sign In</p>
             <ArrowRight className="h-5 w-5" />
-          </button>
+          </NavLink>
           <NavLink
             to="/"
             className="hover:text-[#6B2816] text-gray-600 text-base block text-center "
