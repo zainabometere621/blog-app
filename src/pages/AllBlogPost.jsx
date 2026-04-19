@@ -4,7 +4,7 @@ export default function AllBlogpage() {
   return (
     <main className="min-h-screen bg-[#FDF6EC] px-40 pt-20 space-y-20">
       <section className=" flex gap-10">
-        <div className="">
+        <article className="">
           <h3 className="text-[#8B3B29] pb-4 pt-6 text-xl font-semibold">
             Featured
           </h3>
@@ -28,7 +28,7 @@ export default function AllBlogpage() {
               </div>
             </div>
           </div>
-        </div>
+        </article>
         <div className="w-full bg-[#F5EDE1] font-bold text-9xl text-[#EADCC9] flex items-center justify-center">
           Featured
         </div>
